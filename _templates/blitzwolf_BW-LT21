@@ -13,4 +13,10 @@ category: bulb
 type: RGBW
 standard: e27
 ---
+
+If one wants to use PWM4 channel from WEB interface one should use:
+-SetOption37 128 (split RGB and W channel)
+or
+-SetOption106 1 (enable virtual PWM5 channel from RGB)
+
 ![](https://www.blitzwolf.com/bg_os/other/upload_temp/products/original/201910/1570531496_26.jpg)
